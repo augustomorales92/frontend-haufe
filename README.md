@@ -16,7 +16,13 @@ The Haufe Challenge is an application that utilizes the Rick and Morty API to cr
 2. Navigate to the project directory.
 3. Run `npm install` to install dependencies.
 
+## Registration not implemented
 ## Usage
+
+To explore the universe of Rick and Morty, follow these steps:
+
+1. **Log in with a valid user**.
+2. Navigate through the character listings, search by name, add favorites, and enjoy the adventure across dimensions.
 
 
 ## Scripts
