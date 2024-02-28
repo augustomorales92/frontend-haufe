@@ -1,0 +1,19 @@
+.search-sort-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-input {
+  width: 20rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.sort-select {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
