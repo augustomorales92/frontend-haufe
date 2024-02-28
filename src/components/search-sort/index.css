@@ -9,11 +9,12 @@
   width: 20rem;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .sort-select {
   padding: 1rem;
   margin-bottom: 0.5rem;
-  font-size: 16px;
+  margin-left: 0.5rem;
+  font-size: 14px;
 }

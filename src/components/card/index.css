@@ -4,6 +4,7 @@
   overflow: hidden;
   position: relative;
   height: 35rem;
+  box-shadow: 0 0 1rem #202329;
 }
 
 .card-image {

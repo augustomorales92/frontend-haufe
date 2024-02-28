@@ -2,7 +2,7 @@ import React from 'react'
 import { LoaderProps } from 'types'
 import './index.css'
 
-const Loader = ({ className }: LoaderProps): JSX.Element => {
+const Spinner = ({ className }: LoaderProps): JSX.Element => {
   return (
     <div>
       <span className={`loader ${className}`} />
@@ -10,4 +10,4 @@ const Loader = ({ className }: LoaderProps): JSX.Element => {
   )
 }
 
-export default Loader
+export default Spinner

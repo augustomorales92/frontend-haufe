@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import useUser from 'hooks/useUser'
 import ErrorModal from 'components/modals/ErrorModal'
-import Loader from 'components/loader'
+import Spinner from 'components/spinner'
 import './index.css'
 import { UserData } from 'types/users'
 
@@ -56,7 +56,7 @@ const Login = (): JSX.Element => {
             className="submit-button"
             disabled={!user.username || !user.password}
           >
-            {isLoading ? <Loader /> : 'Log in'}
+            {isLoading ? <Spinner /> : 'Log in'}
           </button>
         </form>
         {showModal && <ErrorModal closeModal={closeModal} error={error} />}

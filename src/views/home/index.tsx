@@ -8,7 +8,7 @@ import { Characters, SortOrder } from 'types/characters'
 import { CustomError } from 'types/errors'
 import Card from 'components/card'
 import SearchSortComponent from 'components/search-sort'
-import Loader from 'components/loader'
+import Spinner from 'components/spinner'
 import ErrorModal from 'components/modals/ErrorModal'
 import { sortedData } from 'utils'
 import './index.css'
@@ -91,7 +91,7 @@ const Home = (): JSX.Element => {
   if (isLoading) {
     return (
       <div className="loader-container">
-        <Loader className={'home-loader'} />
+        <Spinner className={'home-loader'} />
       </div>
     )
   }
@@ -129,7 +129,7 @@ const Home = (): JSX.Element => {
             disabled={isLoading}
             className="load-more-button"
           >
-            {isLoading ? <Loader /> : 'Load more'}
+            {isLoading ? <Spinner /> : 'Load more'}
           </button>
         </div>
       )}

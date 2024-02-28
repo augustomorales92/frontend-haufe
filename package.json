@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-prod": "NODE_ENV=prod react-scripts start",
+    "start-prod": "REACT_APP_ENV=prod react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src/**/*.ts src/**/*.tsx"
