@@ -23,11 +23,9 @@ export const AxiosInterceptor = () => {
   )
   axios.interceptors.response.use(
     (response) => {
-      console.log(response)
       return response
     },
     (error) => {
-      console.log(error)
       const decodedError = getValidationError(error.response.data.code)
       return Promise.reject(decodedError)
     }
