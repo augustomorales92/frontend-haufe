@@ -26,6 +26,12 @@ export const getValidationError = (errorType: string) => {
       id: 5,
       message: 'The provided values are not valid',
       name: 'WRONG_DATA'
+    },
+    // TODO: this error will be implemented when the registry is implemented
+    ALREADY_EXIST: {
+      id: 6,
+      message: 'User Already Exists, Please try again with different values',
+      name: 'ALREADY_EXIST'
     }
   }
 
