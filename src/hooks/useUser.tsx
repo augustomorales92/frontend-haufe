@@ -15,7 +15,6 @@ const useUser = () => {
         window.localStorage.setItem('jwt', token)
         setJwt(token)
       } catch (e) {
-        console.log(e)
         setError(e as CustomError)
       }
     },
