@@ -12,7 +12,6 @@ const useUser = () => {
       try {
         const res = await Login({ username, password })
         const { token } = res
-        console.log(token)
         window.localStorage.setItem('jwt', token)
         setJwt(token)
       } catch (e) {
